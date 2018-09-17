@@ -1,0 +1,36 @@
+<!--
+Instrucciones:
++ Agregar manejadores de eventos para enceder/apagar los bombillos del semáforo
+** Cuando el usuario dé clic en el botón "Stop", cambie el color del bombillo
+** Cuando el usuario dé clic en el botón "Slow", cambie el color del bombillo
+** Cuando el usuario dé clic en el botón "Go", cambie el color del bombillo
+
++ Agregue manejadores de eventos para registrar (log) el estado de cada botón
+** Cuando el ratón entre en el botón, registre "Entrando al botón ..." a la consola
+** Cuando el ratón salga del botón, registre "Saliendo al botón ..." a la consola
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Semaforo</title>
+	<link type="text/css" rel="stylesheet" href="./diseño/css/index.css"/>
+</head>
+<body>
+
+<div id="controls">
+	<div id="stop" class="button">Stop</div>
+	<div id="slow" class="button">Slow</div>
+	<div id="go" class="button">Go</div>
+</div>
+
+<div id="traffic-light">
+	<div id="stopLight" class="bulb"></div>
+	<div id="slowLight" class="bulb"></div>
+	<div id="goLight" class="bulb"></div>
+</div>
+
+<script src="./diseño/js/ejercicio4.js"></script>
+</body>
+</html>
